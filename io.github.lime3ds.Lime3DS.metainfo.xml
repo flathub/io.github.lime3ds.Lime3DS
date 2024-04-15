@@ -27,6 +27,8 @@
   </screenshots>
   <releases>
 
+    <release version="2109" date="2024-04-15"/>
+
     <release version="2108" date="2024-04-11">
       <description>
         <p>- Updated dependencies</p>
