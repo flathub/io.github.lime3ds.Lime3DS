@@ -127,7 +127,6 @@
                 "-DCMAKE_LINKER=lld",
                 "-DENABLE_QT_TRANSLATION=ON",
                 "-DUSE_DISCORD_PRESENCE=ON",
-                "-DENABLE_COMPATIBILITY_LIST_DOWNLOAD=OFF",
                 "-DUSE_SYSTEM_SDL2=ON"
             ],
             "cleanup": [
