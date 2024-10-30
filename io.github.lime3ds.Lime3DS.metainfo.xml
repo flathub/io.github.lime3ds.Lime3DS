@@ -30,6 +30,17 @@
   </screenshots>
   <releases>
 
+    <release version="2119" date="2024-10-30">
+      <description>
+        <p>- Added a "Small Screen Position" feature which can be used with the Large Screen layout</p>
+        <p>- Diagonal inputs for the circlepad and c-stick can now be bound from the Controls menu</p>
+        <p>- Added new command line options for the `lime3ds` executable which mirror those that were available with the `-cli` executable</p>
+        <p>-- You can view these new options by running `lime3ds --help`</p>
+        <p>- Fixed the labels in the Texture Filter dropdown menu being mismatched</p>
+        <p>- Fixed an issue where Vulkan may not be available when using the Linux AppImage in a Wayland session</p>
+      </description>
+    </release>
+
     <release version="2118.1" date="2024-09-25">
       <description>
         <p>- Updated various build dependencies.</p>
