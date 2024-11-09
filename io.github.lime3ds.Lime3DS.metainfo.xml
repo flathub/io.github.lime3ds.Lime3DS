@@ -30,6 +30,13 @@
   </screenshots>
   <releases>
 
+    <release version="2119.1" date="2024-11-09">
+      <description>
+        <p>This release corrects an issue introduced in the 2119 update which caused desktop shortcuts to not function correctly.</p>
+        <p>After installing this update, all existing desktop shortcuts must be removed and re-created in order to function properly.</p>
+      </description>
+    </release>
+
     <release version="2119" date="2024-10-30">
       <description>
         <p>- Added a "Small Screen Position" feature which can be used with the Large Screen layout</p>
