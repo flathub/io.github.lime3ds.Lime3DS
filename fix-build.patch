@@ -1,0 +1,16 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 4f6ac50..10f4f74 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -115,11 +115,6 @@ else()
+         -fstack-clash-protection
+     )
+ 
+-    if (NOT CMAKE_BUILD_TYPE STREQUAL Debug)
+-        # _FORTIFY_SOURCE can't be used without optimizations.
+-        add_compile_options(-D_FORTIFY_SOURCE=2)
+-    endif()
+-
+     if (LIME3DS_WARNINGS_AS_ERRORS)
+         add_compile_options(-Werror)
+     endif()
