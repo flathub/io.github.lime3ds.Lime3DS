@@ -4,7 +4,7 @@
     "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm19"
+        "org.freedesktop.Sdk.Extension.llvm18"
     ],
     "command": "lime3ds-launcher",
     "rename-desktop-file": "lime3ds.desktop",
@@ -15,8 +15,8 @@
     ],
     "copy-icon": true,
     "build-options": {
-        "append-path": "/usr/lib/sdk/llvm19/bin",
-        "prepend-ld-library-path": "/usr/lib/sdk/llvm19/lib",
+        "append-path": "/usr/lib/sdk/llvm18/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/llvm18/lib",
         "cflags": "-Wno-unused-command-line-argument",
         "cxxflags": "-Wno-unused-command-line-argument"
     },
